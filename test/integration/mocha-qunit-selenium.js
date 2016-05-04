@@ -26,6 +26,7 @@ test('mocha-qunit - phantom', function(done) {
         });
 
         browser.on('done', function(results) {
+            console.log('done22');
             assert.equal(results.passed, 1);
             assert.equal(results.failed, 1);
             done();
@@ -33,6 +34,7 @@ test('mocha-qunit - phantom', function(done) {
     });
 
     zuul.run(function(passed) {
+        console.log('passed?');
         assert.ok(!passed);
         done();
     });
