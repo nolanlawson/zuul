@@ -6,6 +6,7 @@
   "dependencies": {
     "JSON2": "0.1.0",
     "batch": "0.5.0",
+    "body-parser": "^1.15.2",
     "browserify": "13.0.0",
     "browserify-istanbul": "0.1.5",
     "char-split": "0.2.0",
@@ -28,6 +29,7 @@
     "lodash": "3.10.1",
     "opener": "1.4.0",
     "osenv": "0.0.3",
+    "pouchdb-http": "^5.4.5",
     "shallow-copy": "0.0.1",
     "shell-quote": "1.4.1",
     "stack-mapper": "0.2.2",
